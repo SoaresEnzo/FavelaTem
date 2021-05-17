@@ -1,0 +1,106 @@
+/* .servico .jumbotron {
+    background-color: #1CA8C9;
+    margin: 0px;
+    min-height: 25vh;
+} */
+
+.servico .header-servico {
+    background-color: #1CA8C9;
+    margin-bottom: 0px ;
+    min-height: 25vh;
+}
+.servico .header-servico .image button {
+    background: transparent;
+    border: none;
+    margin-left: 30px;
+}
+
+.servico .form {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: -32px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.servico .form h3 {
+    color:  #FF4D00;
+}
+
+.servico .form hr{
+    background-color: #1CA8C9;
+}
+
+.servico .paraisopolis {
+    background-image:url(../../assets/imagens/paraisopolisfoto.png);
+    background-size: cover;
+    min-height: 75vh;
+}
+
+label {
+    color:#FF4D00;
+    font-weight: 600;
+}
+
+
+.servico .checks {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.servico .atendimento {
+    width: 50%;
+    
+}
+
+.servico .atendimento p {
+    margin-bottom: 0px;
+    font-size:12pt;
+    font-weight: bold;
+    color: #FF4D00;
+}
+
+.servico .atendimento label {
+    margin:15px;
+    font-weight:small ;
+}
+
+.servico .inferior {
+    display:flex;
+ 
+}
+
+.servico .azul  {
+    justify-content: space-between;
+    display: flex;
+}
+
+.servico #alerta img {
+    margin: 10px 0px 0px 0px;
+    height: 48px;
+    width: 48px;
+}
+
+.servico #alertap {
+    padding: 15px 0px 0px 10px;
+}
+
+.servico #alertap p {
+    margin: 0px 0px 0px 0px;
+    color: white;
+}
+
+.servico .pclaro {
+    color:rgb(68, 68, 68);
+    font-size: initial;
+}
+
+.servico footer {
+    border-radius: 0px 0px 15px 15px;
+    background: #1CA8C9;
+}
+
+.servico .cadserv {
+    background: #FF4D00;
+    color: white;
+}
+

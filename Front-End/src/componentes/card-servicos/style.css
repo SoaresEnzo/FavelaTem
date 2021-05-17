@@ -1,0 +1,37 @@
+.cardServicos {
+    width: 250px !important;
+}
+
+.cardServicos .card-header img {
+    height: 75px;
+    width: 75px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FF4D00;
+}
+
+.cardServicos .card-header p.nome {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #FF4D00;
+}
+
+.cardServicos .card-header p.local {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #1CA8C9;
+}
+
+.cardServicos .card-body img {
+    width: 225px;
+}
+
+.cardServicos .card-footer p {
+    font-size: 12px;
+}
+
+.cardServicos .card-footer button {
+    background-color: #FF4D00;
+    color: #ffffff;
+    font-weight: bolder;
+}

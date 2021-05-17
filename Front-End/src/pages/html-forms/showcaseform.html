@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Formulário em Bootstrap</title>
+
+    <style>
+        .form {
+            margin-top: -4.4rem;
+            border: 1px solid #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="image">
+            <img src="./images/icons8-voltar-26.png" alt="voltar" />
+        </div>
+        <h3 class="title">Seja um profissional disponível no Favela Tem!</h3>
+
+    </div>
+
+    <div class="row d-flex justify-content-center">
+
+        <div class="h3 col-6 form bg-white">
+
+            <div class="box.int">
+                <h3>Cadastre-se para divulgar seu serviço:</h3>
+                <hr>
+
+                <form>
+                    <div class="nome">Seu nome ou nome fantasia:</label>
+                      <input type="text" class="form-control" id="nome" placeholder="Input exemplo">
+                    </div>
+                    <div class="form-group">
+                      <label for="categoria">Categoria (separe com vírgula):</label>
+                      <input type="text" class="form-control" id="categoria" placeholder="Outro input">
+                    </div>
+                  </form>
+                  <form>
+                    <form>
+                        <div class="form-group">
+                              <label for="telefone">Telefone:</label>
+                            <input type="text" class="form-control" placeholder="">
+                          <div>
+                            <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="text" class="form-control" placeholder="Digite seu e-mail">
+                          </div>
+                       
+                        </div>
+                      </form>
+                    <div class="form-group">
+                      <label for="address">Endereço:</label>
+                      <input type="text" class="form-control" id="address" placeholder="Ex: Rua do Meio, nº 10">
+                    </div>
+                   
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">Cidade</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputEstado">Estado</label>
+                        <select id="inputEstado" class="form-control">
+                          <option selected>Escolher...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputCEP">CEP</label>
+                        <input type="text" class="form-control" id="inputCEP">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">Fale sobre horário e público que atende:</label>
+                        <textarea class="form-control" id="textarea" rows="3"></textarea>
+                      </div>
+                    </form>
+                    <div class="portifolio">
+<p>Portifólio</p>
+</div>
+<hr>
+                <div class="file">
+                    <p>Poste o antes e depois de serviços que já realizou!</p>
+                </div>
+                <form>
+                    <div class="file form-file">
+                        <label class-for="file">Clique aqui para anexar ou arraste o arquivo para cá.</label>
+                        <input type="file" class="form-control-file" id="file" />
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">Descreva brevemente o serviço feito:</label>
+                        <textarea class="form-control" id="textarea" rows="3"></textarea>
+                      </div>
+                    </form>
+
+
+
+                </form>
+
+           
+
+            <div class="footer">
+                <footer>
+                    <div class="alert">
+
+                        <img src="./images/alert.png" alt="alert" />
+                        <p>Importante!<br>Preencha todos os dados.</p>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn">Cadastrar</button>
+                    </div>
+                </footer>
+
+           
+        </div>
+
+
+    </div>
+
+    </div>
+</body>
+
+</html>

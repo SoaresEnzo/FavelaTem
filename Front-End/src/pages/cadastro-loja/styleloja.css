@@ -1,0 +1,129 @@
+.loja html,body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.loja .jumbotron{
+    background-color: #1CA8C9;
+    margin: 0px;
+    min-height: 25vh;
+}
+
+.loja .image{
+    margin: 20px 0px 20px 20px;
+}
+
+.loja .image img:hover{
+    cursor: pointer;
+}
+
+.loja hr {
+    background-color: #1CA8C9;
+}
+
+.loja .form {
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 736px;
+    border-radius: 20px;
+}
+
+.loja .form label {
+    font-size: 13pt;
+    color:#FF4D00;
+}
+
+.loja .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-bottom: 15px;   
+    color:white;
+}
+
+.loja .form-inteiro {
+    margin-top: -32px;
+    height: min-content;
+}
+
+.loja .p {
+    font-size: 16px;
+    font-weight: bold;
+    color:#FF4D00;
+}
+
+.loja .h3{
+    font-size: 20px;
+    color:#FF4D00;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.loja .checkbox1{
+    background-color: gray;
+   float: left;    
+}
+
+    
+
+.loja .portifolio p {
+    font-size: 25px;
+    color:black;
+}
+
+
+.loja button{
+    height: 40px;
+    width: 20%;
+    margin-right: 10px;
+    border-radius: 10px;
+    float: right; 
+}
+
+.loja .footer{
+    background-color:#1CA8C9;
+    height: 130px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px;
+    padding: 15px;
+    width: 100%;
+}
+
+.loja .footer p{
+    color:white;
+}
+
+.loja .alert{
+    display: flex;
+    align-items: center;
+   justify-content: start; 
+   width:50%; 
+}
+
+.loja .alert img{
+    width: 48px;
+    height: 48px;
+}
+
+.loja .btn{
+    background-color:#FF4D00;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: -60px;  
+}
+
+
+.loja .row{
+    background-image:url(../../assets/imagens/paraisopolisfoto.png) ;
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: cover; 
+    min-height: 75vh;
+}
+

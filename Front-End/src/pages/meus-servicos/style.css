@@ -1,0 +1,153 @@
+.my-servicos body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-servicos .container-fluid .section-1 .bloco-1 .header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px;
+}
+
+.my-servicos .container-fluid .section-1 .bloco-1 .header nav button {
+    margin: 5px;
+    background-color: transparent;
+    color: black;
+    outline: 0px;
+    border: none;
+}
+
+.my-servicos .section-principal{
+    display:flex;    
+}
+
+.my-servicos .section-user{
+    background-color: #6ebaed ;
+    width: 250px;
+    height: auto;
+    border-radius: 0px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;    
+}
+
+.my-servicos .section-user .inf-user {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-servicos .section-user .inf-user .foto-user {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    display:flex;
+    justify-content: center;    
+}
+
+.my-servicos .section-user .inf-user .foto-user img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.my-servicos .section-user .inf-user .name-user {
+    background-color: #FF4D00;
+    width: 95%;
+    height: auto;
+    color: white;
+    margin: 0px 0px 16px 0px;
+    border-radius: 8px;  
+}
+
+.my-servicos .section-user .inf-user p{
+    margin:0;
+    font-weight: 900;
+}
+
+.my-servicos .section-user .inf-user .pontos {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.my-servicos .section-user .inf-user .atividades {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.my-servicos .section-user .inf-user .anuncios {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.my-servicos .section-user .experiencia  li{
+    font-size: large;
+    font-weight: 700;
+}
+
+.my-servicos .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-servicos .btns .btn {
+    color: White;
+    background-color: #1CA8C9;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 95%;
+    margin: 10px 0px 0px 0px;
+}
+
+.my-servicos .conteudo {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height:auto;
+    width:100%;
+    padding-top: 80px;
+}

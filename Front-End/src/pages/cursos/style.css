@@ -1,0 +1,180 @@
+.curso body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.curso .container-fluid .section-1 .bloco-1 .header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px;
+}
+
+.curso .container-fluid .section-1 .bloco-1 .header nav button {
+    margin: 5px;
+    background-color: transparent;
+    color: black;
+    outline: 0px;
+    border: none;
+}
+
+.curso .section-principal{
+    display:flex;    
+}
+
+.curso .section-user{
+    background-color: #6ebaed ;
+    width: 250px;
+    height: auto;
+    border-radius: 0px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;    
+}
+
+.curso .section-user .inf-user {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso .section-user .inf-user .foto-user {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    display:flex;
+    justify-content: center;    
+}
+
+.curso .section-user .inf-user .foto-user img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.curso .section-user .inf-user .name-user {
+    background-color: #FF4D00;
+    width: 95%;
+    height: auto;
+    color: white;
+    margin: 0px 0px 16px 0px;
+    border-radius: 8px;  
+}
+
+.curso .section-user .inf-user p{
+    margin:0;
+    font-weight: 900;
+}
+
+.curso .section-user .inf-user .pontos {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.curso .section-user .inf-user .atividades {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.curso .section-user .inf-user .anuncios {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.curso .section-user .experiencia  li{
+    font-size: large;
+    font-weight: 700;
+}
+
+.curso .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.curso .btns .btn {
+    color: White;
+    background-color: #1CA8C9;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 95%;
+    margin: 10px 0px 0px 0px
+}
+
+.curso .conteudo {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height:auto;
+    width:100%;
+    padding-top: 80px;
+}
+
+.curso .conteudo .cursos{
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.curso .conteudo .cursos img{
+    width: 400px;
+    height: 350px;
+}
+
+.curso .conteudo .carousel-item h5 {
+    color:black;
+    font-weight: 800;
+}
+
+.curso .conteudo .carousel-item p{
+    color: hsl(0, 0%, 0%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.curso .conteudo .propaganda {
+    background-color: #6EBAED;
+    margin-bottom: 100px;
+}
+

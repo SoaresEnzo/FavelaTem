@@ -1,0 +1,79 @@
+.cadastro {
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  padding: 0px;
+}
+.cadastro .section-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1ca8c9;
+  color: #ffffff;
+  font-size: 14pt;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.cadastro .jumbotron {
+  min-height: 25vh;
+}
+
+.cadastro .section-1 p {
+  margin: auto;
+  width: 50%;
+}
+
+.cadastro .section-1 button {
+  background-color: transparent;
+  border: none;
+  width: 25px;
+  height: 25px;
+  margin-left: 30px;
+}
+
+.cadastro main {
+  background-image: url("../../assets/imagens/paraisopolisfoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cadastro .principal {
+  width: 100%;
+  min-height: 75vh;
+}
+
+.cadastro .principal .borda-formulario {
+  padding: 20px;
+  border-radius: 15px 15px 0px 0px;
+  color: #ff4d00;
+  font-size: 13pt;
+  margin: -32px 0px 0px 0px;
+}
+
+.cadastro .principal .borda-formulario hr {
+  background-color: #1ca8c9;
+}
+
+.cadastro .footer {
+  background-color: #1ca8c9;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 20px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.cadastro .footer .cadastrar input {
+  background-color: #ff4d00;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+
+.cadastro .alerta img {
+  width: 48px;
+  height: 48px;
+}

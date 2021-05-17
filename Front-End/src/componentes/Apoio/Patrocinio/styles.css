@@ -1,0 +1,19 @@
+/* .section-2 .container .card-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.section-2 .container .card-container article h4 {
+    margin-top: 8px;
+    text-align: center;
+} */
+
+.section-2 .container .card-container article img{
+    border-radius: 4px;
+}
+
+.section .container .card-container article h4{
+    margin-top: 8px;
+    text-align: center;
+}

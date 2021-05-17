@@ -1,0 +1,15 @@
+.secao1{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+    /* background: blue; */
+    background-image: url(../../assets/imagens/paraisopolisfoto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(255,77,0);
+    font-size: 18pt;
+    font-weight: 800;
+}

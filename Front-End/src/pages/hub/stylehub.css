@@ -1,0 +1,181 @@
+.hub body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hub .container-fluid .section-1 .bloco-1 .header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px;
+}
+
+.hub .container-fluid .section-1 .bloco-1 .header nav button {
+    margin: 5px;
+    background-color: transparent;
+    color: black;
+    outline: 0px;
+    border: none;
+}
+
+.hub .section-principal{
+    display:flex;    
+}
+
+.hub .section-user{
+    background-color: #6ebaed ;
+    width: 250px;
+    height: auto;
+    border-radius: 0px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;    
+}
+
+.hub .section-user .inf-user {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hub .section-user .inf-user .foto-user {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    display:flex;
+    justify-content: center;    
+}
+
+.hub .section-user .inf-user .foto-user img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.hub .section-user .inf-user .name-user {
+    background-color: #FF4D00;
+    width: 95%;
+    height: auto;
+    color: white;
+    margin: 0px 0px 16px 0px;
+    border-radius: 8px;  
+}
+
+.hub .section-user .inf-user p{
+    margin:0;
+    font-weight: 900;
+}
+
+.hub .section-user .inf-user .pontos {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.hub .section-user .inf-user .atividades {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.hub .section-user .inf-user .anuncios {
+    background-color: white;
+    color: #1CA8C9;
+    width: 95%;
+    height: 90px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.hub .section-user .experiencia  li{
+    font-size: large;
+    font-weight: 700;
+}
+
+.hub .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hub .btns .btn {
+    color: White;
+    background-color: #1CA8C9;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 95%;
+    margin: 10px 0px 0px 0px;
+}
+
+.hub .conteudo {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height:auto;
+    width:100%;
+    padding-top: 80px;
+}
+
+.hub .conteudo .cursos{
+    background-color:#FE814C;
+    width: 350px; 
+    border-radius: 20px;
+}
+
+.hub .conteudo .cursos img{
+    width: 400px;
+    height: 350px;
+}
+
+.hub .conteudo .carousel-item h5 {
+    color:black;
+    font-weight: 800;
+}
+
+.hub .conteudo .carousel-item p{
+    color: hsl(0, 0%, 0%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hub .conteudo .propaganda {
+    background-color: #6EBAED;
+    margin-bottom: 100px;
+}
+

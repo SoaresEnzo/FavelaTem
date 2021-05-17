@@ -1,0 +1,137 @@
+.contato .nav {
+  background-color: white;
+}
+
+.contato .logo img {
+  height: 28px;
+}
+
+.contato .navbar-nav {
+  flex: 1;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contato.link a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff4d00;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.contato .jumbotron {
+  background-color: #1ca8c9;
+  margin-bottom:auto;
+}
+
+.contato .image {
+  margin-left: 20px;
+}
+
+.contato .image img:hover {
+  cursor: pointer;
+}
+
+.contato .form {
+  display: block;
+  margin: auto;
+  width: 736px;
+  margin-top: -100px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.contato .box.int {
+  background-color: transparent;
+}
+.contato .form label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.contato .nome {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.contato .title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.contato .p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff4d00;
+}
+
+.contato .h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff4d00;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.contato button {
+  height: 40px;
+  width: 20%;
+  margin-right: 10px;
+  border-radius: 10px;
+  float: right;
+}
+
+.contato .footer {
+  background-color: transparent;
+  height: 130px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 15px;
+  width: 100%;
+}
+
+.contato .footer p {
+  color: white;
+  font-size: 10px;
+}
+
+.contato .alert {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contato .alert img {
+  width: 32px;
+  height: 32px;
+}
+
+.contato .btn {
+  background-color: #ff4d00;
+  color: white;
+  height: 50px;
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-top: -60px;
+}
+
+.contato .row {
+   background-image: url(../../assets/imagens/paraisopolisfoto.png);
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin:0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

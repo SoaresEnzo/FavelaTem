@@ -1,0 +1,154 @@
+.admin body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.admin {
+    min-height: 100vh;
+}
+
+.admin .container-fluid .section-1 .bloco-1 .header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px;
+}
+
+.admin .container-fluid .section-1 .bloco-1 .header nav button {
+    margin: 5px;
+    background-color: transparent;
+    color: black;
+    outline: 0px;
+    border: none;
+}
+
+.admin .section-principal{
+    display:flex;    
+}
+
+.admin .section-user{
+    background-color: #6ebaed ;
+    width: 250px;
+    border-radius: 0px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;    
+}
+
+.admin .section-user .inf-user {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin .section-user .inf-user .foto-user {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    display:flex;
+    justify-content: center;    
+}
+
+.admin .section-user .inf-user .foto-user img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.admin .section-user .inf-user .name-user {
+    background-color: #FF4D00;
+    width: 95%;
+    height: auto;
+    color: white;
+    margin: 0px 0px 16px 0px;
+    border-radius: 8px;  
+}
+
+.admin .section-user .inf-user p{
+    margin:0;
+    font-weight: 900;
+}
+
+.admin .section-user .experiencia  li{
+    font-size: large;
+    font-weight: 700;
+}
+
+.admin .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.admin .btns .btn {
+    color: White;
+    background-color: #1CA8C9;
+    margin-top: 10px ;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.admin .conteudo {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height:auto;
+    width:100%;
+    padding-top: 80px;
+}
+
+.admin .conteudo .cursos{
+    background-color:#FE814C;
+    width: 350px; 
+    border-radius: 20px;
+}
+
+.admin .conteudo .cursos img{
+    width: 400px;
+    height: 350px;
+}
+
+.admin .conteudo .carousel-item h5 {
+    color:black;
+    font-weight: 800;
+}
+
+.admin .conteudo .carousel-item p{
+    color: hsl(0, 0%, 0%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.admin .conteudo .propaganda {
+    background-color: #6EBAED;
+    margin-bottom: 100px;
+}
+
+.admin .dadoNumero {
+    border-radius: 8px;
+    border: 2px solid #1CA8C9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0px;
+}
+
+.admin .dadoNumero h1 {
+    color: #1CA8C9;
+}
+
+.admin .dadoNumero small {
+    color: #1CA8C9;
+}
+
+.admin .parentCanvas {
+    width: 50%;
+    min-width: 320px;
+}

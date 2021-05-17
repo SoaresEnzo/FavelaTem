@@ -1,0 +1,100 @@
+.page-servicos body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-servicos .container-fluid .section-1 .bloco-1 .header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px;
+}
+
+.page-servicos .container-fluid .section-1 .bloco-1 .header nav button {
+    margin: 5px;
+    background-color: transparent;
+    color: black;
+    outline: 0px;
+    border: none;
+}
+
+.page-servicos .container-fluid .section-2 {
+    background-color: #FF4D00;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+            
+}
+
+.page-servicos .container-fluid .section-2 .navbar li {
+    background-color: transparent;
+}
+
+.page-servicos .container-fluid .section-2 .navbar button{
+    margin: 5px;
+    background-color: transparent;
+    outline: 0px;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+}
+
+.page-servicos .container-fluid .section-2 .navbar  img {
+    width: 36px;
+    height: 36px;
+}
+
+.page-servicos .section-3{
+    display:flex;   
+}
+
+.page-servicos .section-3 .filtro aside {
+    background-color: #1CA8C9;
+    width: 350;
+    height: 300px;
+    border: #1CA8C9;
+    border-radius: 0px 0px 16px 0px ;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.page-servicos .section-3 .filtro aside ul {
+    padding: 0px;
+    margin: 50px;
+}
+
+.page-servicos .section-3 .filtro aside ul select {
+    height: 40px;
+}
+
+.page-servicos .section-3 .filtro aside ul .cleanFilter {
+    background-color: #FF4D00;
+    color: #ffffff;
+}
+
+.page-servicos .section-3 .servicos{
+    display: block;
+    text-align: center;
+}
+
+.page-servicos .section-3 .servicos .pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -16px;
+}
+.page-servicos .section-3 .servicos .pesquisa .d-flex .btn {
+    height: 33px;
+}
+
+    .page-servicos .section-3 .servicos .group-servicos{
+    display: flex;
+}
+
